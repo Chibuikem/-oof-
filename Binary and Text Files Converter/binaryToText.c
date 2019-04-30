@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+//Add sufficient comments to code
+
 void binaryToText(char *inputFile, char *outputFile){
 	
 	int sID; 
