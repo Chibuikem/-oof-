@@ -4,6 +4,8 @@
 
 //Add sufficient comments to code
 
+//Method parameters take 2 files as input
+
 void binaryToText(char *inputFile, char *outputFile){
 	
 	int sID; 
