@@ -4,7 +4,6 @@
 ![Build Status][travis-image]
 
 ![](header.png)
-
 ## File Format
 
 The format of the text file to be converted is specified as follows below:
