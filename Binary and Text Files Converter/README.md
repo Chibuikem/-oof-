@@ -1,11 +1,9 @@
-# Product Name
-> Short blurb about what your product does.
+# Binary & Text File Converter
+> This is a small program that converts a given text file into a binary file. The resulting binary file or another binary file can similarly be converted to a text file.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
