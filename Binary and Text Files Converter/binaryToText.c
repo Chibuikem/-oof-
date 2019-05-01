@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Add sufficient comments to code
-
 //Method parameters take 2 files as input
 
 void binaryToText(char *inputFile, char *outputFile){
@@ -12,10 +10,10 @@ void binaryToText(char *inputFile, char *outputFile){
 	float gpa;
 	char firstName[256], lastName[256];
 	
-	FILE *finp = fopen(inputFile, "rb");
-	FILE *fout = fopen(outputFile, "w");
+	FILE *finp = fopen(inputFile, "rb"); //open input file with read permissions
+	FILE *fout = fopen(outputFile, "w"); //open output file with write permissions
 	
-	if((finp != NULL)&&(fout != NULL)){
+	if((finp != NULL)&&(fout != NULL)){ //check if files opened successfully
 		
 		while(!feof(finp)){
 			unsigned char firstNameLen, lastNameLen;
@@ -31,6 +29,6 @@ void binaryToText(char *inputFile, char *outputFile){
 		}
 	}
 
-	fclose(finp);
-	fclose(fout);
+	fclose(finp); //close input file
+	fclose(fout); //close output file
 }
