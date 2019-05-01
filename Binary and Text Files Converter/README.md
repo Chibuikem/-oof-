@@ -45,7 +45,8 @@ As in the example above, ```-t``` is a flag that is specified for the program to
 ```-s``` takes in a binary file, finds the longest full name and prints it ```./converter -s BinaryFile```
 
 ## Release History
-
+* 0.0.0
+    * Fully Functional Release
 * 0.0.1
     * Work in progress (could use some revision)
 
