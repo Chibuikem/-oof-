@@ -40,42 +40,25 @@ To convert a text file ```example.txt``` to a binary. It can be achieved as foll
 ### Flags
 As in the example above, ```-t``` is a flag that is specified for the program to run. There are 3 flags that can be used in this program.
 
-```-t``` specifies a Text File is being converted ```./converter -t TextFile BinaryFile```
+```-t``` specifies a text file is being converted ```./converter -t TextFile BinaryFile```
 
-```-b``` specifies a Binary File is being converted ```./converter -b BinaryFile TextFile```
+```-b``` specifies a binary file is being converted ```./converter -b BinaryFile TextFile```
 
-```-s``` takes in a Binary File, finds the Longest Full Name and Prints it ```./converter -s BinaryFile```
+```-s``` takes in a binary file, finds the longest full name and prints it ```./converter -s BinaryFile```
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
 * 0.0.1
     * Work in progress
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Chibuikem Ajulu-Okeke – cajuluokeke@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/Chibuikem/-oof-/](https://github.com/Chibuikem/)
 
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
