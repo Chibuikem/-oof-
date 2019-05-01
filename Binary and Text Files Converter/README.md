@@ -7,34 +7,44 @@
 
 ![](header.png)
 
-## Installation
+## File Format
 
-OS X & Linux:
-
+The format of the text file to be converted is specified as follows below:
 ```sh
-npm install my-crazy-module --save
+FirstName LastName ID_Number GPA
 ```
+The file can have an infinite amount of entries as long as the format is correct.
+```FirstName``` and ```LastName``` is a ```String```,
+```ID_Number``` is an ```int``` and
+```GPA``` is a ```float```
 
-Windows:
+Each entry is separated by either a space or a new line.
 
+An example file is given below:
 ```sh
-edit autoexec.bat
+John Doe 8317 4.0
+Jane Doe 34578 4.0
+Harry Potter 100 3.5
 ```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
 ## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
+For a quick and easy setup, with the files located in the same directory, compile the code with the command
 ```sh
-make install
-npm test
+gcc converter.c binaryToText.c secondForm.c textToBinary.c -o converter 
 ```
+
+### Usage example
+
+To convert a text file ```example.txt``` to a binary. It can be achieved as follows:
+```./converter -t example.txt outputFile```
+
+### Flags
+As in the example above, ```-t``` is a flag that is specified for the program to run. There are 3 flags that can be used in this program.
+
+```-t``` specifies a Text File is being converted ```./converter -t TextFile BinaryFile```
+
+```-b``` specifies a Binary File is being converted ```./converter -b BinaryFile TextFile```
+
+```-s``` takes in a Binary File, finds the Longest Full Name and Prints it ```./converter -s BinaryFile```
 
 ## Release History
 
