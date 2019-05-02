@@ -24,6 +24,6 @@ void textToBinary(char *inputFile, char *outputFile){
 		fclose(ifp);
 		fclose(ofp);
 	}else{
-		fprintf(stderr, "Couldn't open: %s\n", ifp);//Ask About This
+		fprintf(stderr, "Couldn't open: %s\n", "input file");
 	}	
 }
