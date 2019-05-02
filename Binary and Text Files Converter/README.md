@@ -55,7 +55,7 @@ Chibuikem Ajulu-Okeke – cajuluokeke@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/Chibuikem/-oof-/](https://github.com/Chibuikem/)
+[https://github.com/Chibuikem/](https://github.com/Chibuikem/)
 
 
 <!-- Markdown link & img dfn's -->
